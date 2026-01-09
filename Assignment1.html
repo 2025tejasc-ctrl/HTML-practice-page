@@ -1,59 +1,140 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>HTML Practice Page</title>
-         <style>
-            h3 {
-                color: blue;
-            }
-         </style>
-    </head>
-    <body>
-        <h1>Welcome to My HTML Practice Page</h1>
-        <p>
-            HELLO WORLD THIS IS HTML HERE THAT IS HYPER TEXT MARKED UP LANGUAGE.<br>
-            This is a practice page for learning HTML.<br>
-            <b>HTML.</b><br>
-            <i>CSS.</i><br>
-            <em>JS.</em><br>
-            <strong>Java.</strong><br>
-        </p>
-        <hr>
-        <hr style="color:blue;">
-        <pre>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Practice Page</title>
+    <style>
+        h3:hover{
+            color: lightcoral;
+            text-shadow: 4px 4px 4px rgba(255, 0, 0, 0.5);
+            text-align: center;
+            font-size: 50px;
+            letter-spacing: 8px;
+            opacity: 0.8;
+            border: 2px solid black;
+            border-radius: 2px;
+            padding: 10px;
+            line-height: 1.5px;
+        }
+        p{
+            background-color: rgb(177, 219, 229);
+            border : 2px solid black;
+            transform: rotate(0deg);
+    }
+        hr{
+            width: 50%;
+            height: 5px;
+            border-radius: 5px;
+        }
+        pre{
+            font-family : monospace;
+            background-color: rgb(0, 0, 0);    
+            color: rgb(0, 245, 20);
+        }  
+        ul{
+            list-style: none ;
+            background-color: antiquewhite;
+            word-spacing: normal;
+        }
+        ol{
+            list-style-type: upper-roman;
+            background-color: rgb(220, 169, 214);
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        a{
+            transition: all 0.3s ease;
+            color : rgb(241, 206, 109);
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(203, 233, 203);
+            text-decoration: none;
+            font-size: 20px;
+    }
+    div{
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        border-radius : 5px;
+    } 
+    span{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(254, 0, 0);
+
+    }
+    button{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(0, 0, 0);
+        transform: scale(1.05);  
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    footer{
+       font-size : small;
+       text-align :center;
+       color : gray;  
+    }
+    body{
+        margin : 20px;
+        background-color: rgb(242, 212, 191);
+    }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: rgb(21, 21, 99);">Welcome to My HTML Practice Page</h1>
+
+<h3>
+    YOU ARE LEARNING HTML</h3>
+
+    <p>
+        HELLO WORLD THIS IS HTML HERE THAT IS HYPER TEXT MARKED UP LANGUAGE.<br>
+        This is a practice page for learning HTML.<br>
+        <b>HTML.</b><br>
+        <i>CSS.</i><br>
+        <em>JS.</em><br>
+        <strong>Java.</strong><br>
+    </p>
+    <hr>
+    <hr style="color:blue;">
+    <pre>
             HTML MEANS HYPER TEXT MARKUP LANGUAGE.<br>
             IT IS USED TO CREATE WEB PAGES.<br>
             HTML USES TAGS TO STRUCTURE CONTENT ON THE WEB.<br>
         </pre>
-        <ul
-            <li>HTML stands for Hyper Text Markup Language.</li>
-            <li>HTML is used to create web pages.</li>
-            <li>HTML uses tags to structure content on the web.</li>
-        </ul>
-        <ol>
-            <li>HTML stands for Hyper Text Markup Language.</li>
-            <li>HTML is used to create web pages.</li>
-            <li>HTML uses tags to structure content on the web.</li>
-        </ol>
-        <a href="https://www.w3schools.com" 
-           target="_blank" 
-           class="externalLink" 
-           style="color: purple; text-decoration: none;">
-           Learn HTML at W3Schools
-        </a>
-        <br><br>
-        <div>
-             HTML is <span style="color: red; font-weight: bold;">powerful</span> for building websites.
-        </div>
-        <button id="submitBtn" style="background-color: orange;">
+    <ul <li>HTML stands for Hyper Text Markup Language.</li>
+        <li>HTML is used to create web pages.</li>
+        <li>HTML uses tags to structure content on the web.</li>
+    </ul>
+    <ol>
+        <li>HTML stands for Hyper Text Markup Language.</li>
+        <li>HTML is used to create web pages.</li>
+        <li>HTML uses tags to structure content on the web.</li>
+    </ol>
+    <a href="https://www.w3schools.com" target="_blank" class="externalLink"
+        style="color: purple; text-decoration: none;">
+        Learn HTML at W3Schools
+    </a>
+    <br><br>
+    <div>
+        HTML is <span style="color: red; font-weight: bold;">powerful</span> for building websites.
+    </div>
+    <button id="submitBtn" style="background-color: orange;">
         Submit
-        </button>
+    </button>
 
-        <footer class="pageFooter" style="font-size: small; margin-top: 20px;">
+    <footer class="pageFooter" style="font-size: small; margin-top: 20px;">
         © 2026 HTML Practice Page
-        </footer>
+    </footer>
 
 
-    </body>
+</body>
+
 </html>
