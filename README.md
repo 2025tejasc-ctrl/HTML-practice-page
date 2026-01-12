@@ -7,4 +7,3 @@
 <img width="1470" height="956" alt="Screenshot 2026-01-12 at 12 05 46 AM" src="https://github.com/user-attachments/assets/dc755721-2f34-48a1-a75d-f5aefefd98b7" />
 <img width="1470" height="956" alt="Screenshot 2026-01-12 at 12 05 49 AM" src="https://github.com/user-attachments/assets/87a84679-8f76-475d-b9df-24589c1c18a9" />
 <img wi<img width="1470" height="956" alt="Screenshot 2026-01-12 at 2 32 23 PM" src="https://github.com/user-attachments/assets/81d767b8-873b-4102-8687-0d908b4a9977" />
-dth="1470" height="956" alt="Screenshot 2026-01-12 at 12 05 53 AM" src="https://github.com/user-attachments/assets/c520fa7e-aae6-48eb-8dfd-f340bfe2a939" />
